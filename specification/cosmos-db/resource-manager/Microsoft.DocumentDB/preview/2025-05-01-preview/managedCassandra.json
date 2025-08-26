@@ -641,12 +641,12 @@
           "200": {
             "description": "The following restore operation is in progress.",
             "schema": {
-              "$ref": "#/definitions/CassandraClusterRestoreInfo"
+
+              "$ref": "#/definitions/BackupResource"
             }
           },
           "default": {
             "description": "Error response describing why the operation failed..",
-
             "schema": {
               "$ref": "cosmos-db.json#/definitions/CloudError"
             }
